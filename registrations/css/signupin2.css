@@ -1,0 +1,317 @@
+body {
+      overflow: hidden !important;
+    }
+    
+    #footer {
+      margin-top: 30px;
+      position: absolute;
+    }
+    button:focus {
+      outline: none;
+    }
+    #logo-holder img {
+      position: absolute;
+    }
+    .nav-ul {
+      position: absolute;
+    }
+    /* Signinup Section */
+    #signinup {
+      background: #4568dc; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to bottom,
+        #b06ab3,
+        #4568dc
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to bottom,
+        #b06ab3,
+        #4568dc
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      border-radius: 20px;
+      margin: auto;
+      margin-top: 7%;
+      width: 1500px;
+      height: 800px;
+    }
+    
+    /* Forms */
+    
+    .hr {
+      width: 1px;
+      height: 686px;
+      position: absolute;
+      border-radius: 15px;
+      background-color: #c0c0c0;
+      margin-left: 730px;
+      margin-top: 60px;
+      opacity: 0.4;
+    }
+    
+    /* Sign In Form */
+    #signinform input {
+      display: block;
+      background-color: transparent;
+    }
+    
+    .signin-titles-h1 {
+      color: white !important;
+      font-weight: bold;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    #signin {
+      margin-top: 7%;
+      margin-left: 8%;
+      position: absolute;
+    }
+    #signinusername {
+      margin: 50px;
+      width: 296px;
+      margin-left: 10px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    #signinusername::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    #signinpassword {
+      margin: 50px;
+      position: relative;
+      margin-left: 10px;
+      width: 296px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    #signinpassword::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    #signinsubmit {
+      margin-top: 56px;
+      margin-left: 50px;
+      position: relative;
+      width: 212px;
+      height: 48px;
+      border: 1px solid #c0c0c0;
+      border-radius: 10px;
+      background: none;
+      font-weight: bolder;
+      color: #c0c0c0;
+      font-size: 20px;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    /* Sign Up */
+    #signupform input {
+      display: block; 
+      background-color: transparent;
+    }
+    
+    .signup-titles-h1 {
+      color: white !important;
+      font-weight: bold;
+      font-family: "Oswald", sans-serif;
+      margin-left: 110px;
+    }
+    
+    #signup {
+      margin-top: 7%;
+      margin-left: 48%;
+      position: absolute;
+    }
+    
+    /* Sign Up First Name */
+    #signupfirstname {
+      margin: 50px;
+      width: 180px;
+      margin-left: -20px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    #signupfirstname::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    /* Sign Up Last Name */
+    #signuplastname {
+      margin: 24px;
+      margin-top: -113px;
+      position: absolute;
+      margin-left: 212px;
+      width: 180px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    
+    #signuplastname::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    /* Sign Up Email */
+    
+    #signupemail {
+      margin: 24px;
+      margin-top: -51px;
+      position: absolute;
+      margin-left: 14px;
+      width: 336px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    
+    #signupemail::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    /* Sign Up Username */
+    #signupusername {
+      margin: 24px;
+      margin-top: 7px;
+      position: absolute;
+      margin-left: 55px;
+      width: 253px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    
+    #signupusername::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    
+    /* Sign Up Password */
+    
+    #signuppassword {
+      margin: 24px;
+      margin-top: 70px;
+      position: absolute;
+      margin-left: -19px;
+      width: 180px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    
+    #signuppassword::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    /* Sign Up Password */
+    
+    #signuprepassword {
+      margin: 24px;
+      margin-top: 70px;
+      position: absolute;
+      margin-left: 212px;
+      width: 180px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    
+    #signuprepassword::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    /* Sign Up Submit */
+    #signupsubmit {
+      margin-top: 169px;
+      margin-left: 80px;
+      position: relative;
+      width: 212px;
+      height: 48px;
+      border: 1px solid #c0c0c0;
+      border-radius: 10px;
+      background: none;
+      font-weight: bolder;
+      color: #c0c0c0;
+      font-size: 20px;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    #signuplastname {
+      margin: 24px;
+      margin-top: -113px;
+      position: absolute;
+      margin-left: 212px;
+      width: 180px;
+      height: 60px;
+      border: none;
+      border-bottom: 1px solid #c0c0c0;
+      background: none;
+      color: white;
+      font-size: 20px;
+    }
+    #signuplastname:-webkit-autofill {
+          background-color: none;
+    }
+    #signuplastname::placeholder {
+      color: #c0c0c0;
+      font-weight: bolder;
+      font-family: "Oswald", sans-serif;
+    }
+    
+    
+    /* Fav ICON */
+    .fav-icon {
+      position: absolute;
+      left: 895px;
+      width: 74px;
+      top: 872px;
+    }
+    
+    
+    /* Log out Button */
+    
+ input:-webkit-autofill {
+   background-color: transparent !important;
+   border-radius: 10px;
+   opacity: .4;
+
+
+ }
