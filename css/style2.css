@@ -634,6 +634,12 @@ body {
     margin-left: 2px;
     margin-bottom: 0px;
   }
+  .box2-h2 {
+    font-size: 18px !important;
+    margin-top: -3px !important;
+    margin-left: 34px !important;
+    margin-bottom: 0px !important;
+}
   /* BOX 1 */
   #box1 {
     width: 200px;
@@ -681,12 +687,6 @@ body {
     width: 200px;
     height: 200px;
   }
-  #box4 h2 {
-    font-size: 18px;
-    margin-top: -9px !important;
-    margin-left: 71px !important;
-    margin-bottom: 0px !important;
-  }
   #jquery {
     margin: 0 !important;
     width: 100px !important;
@@ -700,12 +700,6 @@ body {
   #box5 {
     width: 200px;
     height: 200px;
-  }
-  #box5 h2 {
-    font-size: 18px;
-    margin-top: -8px !important;
-    margin-left: 80px !important;
-    margin-bottom: 0px !important;
   }
   #ajax {
     margin: 0 !important;
@@ -722,12 +716,6 @@ body {
     height: 200px;
   }
 
-  #box6 h2 {
-    font-size: 18px;
-    margin-top: -8px !important;
-    margin-left: 76px !important;
-    margin-bottom: 0px !important;
-  }
   #react {
     margin: 0 !important;
     width: 100px !important;
@@ -741,12 +729,6 @@ body {
   #box7 {
     width: 200px;
     height: 200px;
-  }
-  #box7 h2 {
-    font-size: 18px;
-    margin-top: -8px !important;
-    margin-left: 80px !important;
-    margin-bottom: 0px !important;
   }
   #php {
     margin: 0 !important;
@@ -762,12 +744,6 @@ body {
     width: 200px;
     height: 200px;
   }
-  #box8 h2 {
-    font-size: 18px;
-    margin-top: -9px !important;
-    margin-left: 63px !important;
-    margin-bottom: 0px !important;
-  }
   #angular {
     margin: 0 !important;
     width: 100px !important;
@@ -782,12 +758,7 @@ body {
     width: 200px;
     height: 200px;
   }
-  #box9 h2 {
-    font-size: 18px;
-    margin-top: -9px !important;
-    margin-left: 70px !important;
-    margin-bottom: 0px !important;
-  }
+  
   #sql {
     margin: 0 !important;
     width: 100px !important;
@@ -801,12 +772,6 @@ body {
   #box10 {
     width: 200px;
     height: 200px;
-  }
-  #box10 h2 {
-    font-size: 18px;
-    margin-top: -9px !important;
-    margin-left: 66px !important;
-    margin-bottom: 0px !important;
   }
   #node {
     margin: 0 !important;
@@ -822,13 +787,6 @@ body {
     width: 200px;
     height: 200px;
   }
-
-  #box11 h2 {
-    font-size: 18px;
-    margin-top: -9px !important;
-    margin-left: 76px !important;
-    margin-bottom: 0px !important;
-  }
   #java {
     margin: 0 !important;
     width: 100px !important;
@@ -843,18 +801,197 @@ body {
     width: 200px;
     height: 200px;
   }
-  #box12 h2 {
-    font-size: 18px;
-    margin-top: -9px !important;
-    margin-left: 72px !important;
-    margin-bottom: 0px !important;
-  }
   #laravel {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
     margin-left: 50px !important;
     margin-top: 30px !important;
+  }
+  /* END BOX 12 */
+}
+@media only screen and (max-width: 628px) {
+.box img{
+  width: 32px;
+  height: 32px;
+}
+.box2-h2 {
+  font-size: 18px !important;
+  margin-top: -3px !important;
+  margin-left: 34px !important;
+  margin-bottom: 0px !important;
+}
+  /* BOX 1 */
+  #box1 {
+    width: 110px;
+    height: 110px;
+  }
+  #html {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+  }
+  /*END BOX 1 */
+
+  /* BOX 2 */
+  #box2 {
+    width: 110px;
+    height: 110px;
+  }
+  #css {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+  }
+  /* END BOX 2 */
+
+  /* BOX 3 */
+  #box3 {
+    width: 110px;
+    height: 110px;
+  }
+  #js {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+  }
+  /* END BOX 3 */
+
+  /* BOX 4 */
+  #box4 {
+    width: 110px;
+    height: 110px;
+    top: 14px;
+    position: relative;
+  }
+ 
+  #jquery {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
+}
+  /* END BOX 4 */
+
+  /* BOX 5 */
+  #box5 {
+    width: 110px;
+    height: 110px;
+  }
+  #ajax {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
+  }
+  /* END BOX 5 */
+
+  /* BOX 6 */
+  #box6 {
+    width: 110px;
+    height: 110px;
+  }
+  #react {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
+  }
+  /* END BOX 6 */
+
+  /* BOX 7 */
+  #box7 {
+    width: 110px;
+    height: 110px;
+    margin-top: 28px;
+    position: relative;
+}
+  #php {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
+  }
+  /* END BOX 7 */
+
+  /* BOX 8 */
+  #box8 {
+    width: 110px;
+    height: 110px;
+  }
+  #angular {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
+  }
+  /* END BOX 8 */
+
+  /* BOX 9 */
+  #box9 {
+    width: 110px;
+    height: 110px;
+  }
+
+  #sql {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
+  }
+  /* BOX 9 */
+
+  /* BOX 10 */
+  #box10 {
+    width: 110px;
+    height: 110px;
+  }
+
+  #node {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
+  }
+  /* END BOX 10 */
+
+  /* BOX 11 */
+  #box11 {
+    width: 110px;
+    height: 110px;
+  }
+
+  #java {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
+  }
+  /* END BOX 11 */
+
+  /* BOX 12 */
+  #box12 {
+    width: 110px;
+    height: 110px;
+    top: 0px;
+}
+  #laravel {
+    margin: 0 !important;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 26px !important;
+    margin-top: 16px !important;
   }
   /* END BOX 12 */
 }
