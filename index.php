@@ -10,8 +10,8 @@ session_start();
       <title></title>
       <!-- Main -->
       <link rel="stylesheet" href="css/regist.css" type="text/css">
-      <link rel="stylesheet" href="css/style.css" type="text/css">
-      <!-- <link rel="stylesheet" href="css/style2.css" type="text/css"> -->
+      <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+      <link rel="stylesheet" href="css/style2.css" type="text/css">
       <link rel="stylesheet" href="css/counter.css">
       <link rel="stylesheet" href="responsive/css/responsive.css">
       <link rel="stylesheet" href="css/reset.css">
@@ -175,8 +175,10 @@ session_start();
                   <p class="skills-p">Far far away, behind the word mountains, far from the countries Vokalia and
                         Consonantia</p>
             </div>
+          
+            
             <div class="skills">
-
+            <center>
                   <!--  BOX -1 -->
 
                   <div class="box" id="box1">
@@ -229,6 +231,7 @@ session_start();
 
                         "></div>
                   </div>
+                  <div class="block"></div>
 
                   <!-- End BOX1 -->
 
@@ -237,7 +240,7 @@ session_start();
 
                   <!-- BOX2 -->
 
-                  <div class="box2" id="box4">
+                  <div class="box" id="box4">
                         <img src="https://img.icons8.com/ios/50/000000/jquery.png" />
                         <h2 class="box2-h2">Jquery</h2>
                         <div id="jquery" style="
@@ -254,7 +257,7 @@ session_start();
                   <!-- End BOX2 -->
                   <!--  BOX3 -->
 
-                  <div class="box3" id="box5">
+                  <div class="box" id="box5">
                         <img src="https://img.icons8.com/pastel-glyph/64/000000/source-code--v2.png" />
                         <h2 class="box2-h2">Ajax</h2>
                         <div id="ajax" style="
@@ -271,7 +274,7 @@ session_start();
                   <!-- End BOX3 -->
                   <!-- box4 -->
 
-                  <div class="box4" id="box6">
+                  <div class="box" id="box6">
                         <img src="https://img.icons8.com/carbon-copy/64/000000/react.png" />
                         <h2 class="box2-h2">React</h2>
                         <div id="react" style="
@@ -286,10 +289,10 @@ session_start();
                   </div>
 
                   <!-- End BOX 4-->
-
+                  <div class="block"></div>
                   <!--  BOX5 -->
 
-                  <div class="box5" id="box7">
+                  <div class="box" id="box7">
                         <img src="https://img.icons8.com/wired/64/000000/php-logo.png" />
                         <h2 class="box2-h2">PHP</h2>
                         <div id="php" style="
@@ -306,7 +309,7 @@ session_start();
                   <!-- End BOX5 -->
                   <!--  BOX6 -->
 
-                  <div class="box6" id="box8">
+                  <div class="box" id="box8">
                         <img src="https://img.icons8.com/ios/64/000000/angularjs.png" />
                         <h2 class="box2-h2">Angularjs</h2>
                         <div id="angular" style="
@@ -325,7 +328,7 @@ session_start();
 
                   <!-- BOX7 -->
 
-                  <div class="box7" id="box9">
+                  <div class="box" id="box9">
                         <img src="https://img.icons8.com/wired/64/000000/database.png" />
                         <h2 class="box2-h2">MySQL</h2>
                         <div id="sql" style="
@@ -340,10 +343,10 @@ session_start();
                   </div>
 
                   <!-- End BOX7 -->
-
+                  <div class="block"></div>
                   <!--  BOX8 -->
 
-                  <div class="box8" id="box10">
+                  <div class="box" id="box10">
                         <img src="https://img.icons8.com/windows/64/000000/nodejs.png" />
                         <h2 class="box2-h2">NodeJS</h2>
                         <div id="node" style="         
@@ -355,13 +358,13 @@ session_start();
                  margin-top:60px;"> </div>
 
                   </div>
-            </div>
+            
 
             <!-- End BOX8 -->
 
             <!--  BOX9 -->
 
-            <div class="box9" id="box11">
+            <div class="box" id="box11">
                   <img src="https://img.icons8.com/wired/64/000000/java-coffee-cup-logo.png" />
                   <h2 class="box2-h2">Java</h2>
                   <div id="java" style="
@@ -379,7 +382,7 @@ session_start();
 
             <!-- BOX10 -->
 
-            <div class="box10" id="box12">
+            <div class="box" id="box12">
                   <img src="https://img.icons8.com/ios/50/000000/laravel.png" />
                   <h2 class="box2-h2">Laravel</h2>
                   <div id="laravel" style="
@@ -395,11 +398,11 @@ session_start();
 
             <!-- End BOX10 -->
 
-
+            </center>
             </div>
-
+            
       </section>
-
+      
       <!-- END MY SKILLS -->
 
       <!-- Services -->
