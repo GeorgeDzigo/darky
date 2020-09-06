@@ -1,0 +1,15 @@
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	
+}
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 50px;
+	text-align: center;
+}
+.counters .counter {
+	font-size: 45px;
+	margin: 10px 0;
+}
