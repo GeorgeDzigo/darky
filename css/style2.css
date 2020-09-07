@@ -181,6 +181,10 @@ body {
   animation-iteration-count: infinite;
   opacity: 0.1;
 }
+/* Responsive */
+.about-me-res-div {
+  display: none;
+}
 
 @keyframes fade {
   5% {
@@ -265,30 +269,53 @@ body {
 }
 @media only screen and (max-width: 1510px) {
   #typed {
-    margin-left: -90px;
+    margin-left: -378px;
   }
 }
-@media only screen and (max-width: 1410px) {
-  #typed {
-    margin-left: -160px;
-  }
-}
+
 @media only screen and (max-width: 1210px) {
-  #typed {
-    margin-left: -276px;
-  }
   #aboutmeimg {
     width: 242px;
     height: auto;
   }
 }
 @media only screen and (max-width: 1000px) {
-  #typed {
-    margin-left: -276px;
-  }
   #aboutmeimg {
     width: 200px;
     height: auto;
+  }
+}
+@media only screen and (max-width: 944px) {
+  #aboutmeimg{
+    display: none;
+  }
+  .about-me-res-div{
+    top: -275px;
+    left: -134px;
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    animation-name: fade;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    opacity: 0.1;
+  }
+  #res-about-me-img{
+    width: 300px;
+    height: auto;
+  }
+
+}
+@media only screen and (max-width: 651px) {
+  #typed {
+    font-size: .75em;
+  }
+  .about-me-res-div{
+    left: -274px;
+    width: 200px;
+    height: auto;
+
   }
 }
 
@@ -359,24 +386,7 @@ body {
   width: auto;
 }
 /* Responsive */
-@media only screen and (max-width: 1510px) {
-  #intro-img {
-    margin-left: 135px;
-  }
-  .intro-h3 {
-    left: 595px;
-  }
-  .intro-h1 {
-    left: 595px;
-  }
-  .intro-pre {
-    left: 417px;
-  }
-  .intro-list {
-    left: 495px;
-  }
-}
-@media only screen and (max-width: 1510px) {
+@media only screen and (max-width: 1515px) {
   #intro-img {
     width: auto;
     height: 551px;
@@ -637,8 +647,8 @@ body {
   .box2-h2 {
     font-size: 18px !important;
     margin-top: -3px !important;
-    margin-left: 34px !important;
     margin-bottom: 0px !important;
+    margin-left: 73px !important;
 }
   /* BOX 1 */
   #box1 {
@@ -818,9 +828,10 @@ body {
 .box2-h2 {
   font-size: 18px !important;
   margin-top: -3px !important;
-  margin-left: 34px !important;
+  margin-left: 32px !important;
   margin-bottom: 0px !important;
 }
+
   /* BOX 1 */
   #box1 {
     width: 110px;
