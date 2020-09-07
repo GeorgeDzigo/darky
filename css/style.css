@@ -1962,6 +1962,9 @@ select:focus {
 .res-footer-wrapper {
   display: none;
 }
+#res-social-media-imgs{
+  display: none;
+}
 /* Responsive */
 
 @media only screen and (max-width: 1710px) {
@@ -2070,30 +2073,17 @@ select:focus {
     top: 15px;
     left: 129px;
   }
-  #none-footer-wrapper{
+  .footer-aboutme{ 
+    position: unset;
+    margin-left: 0;
+  }
+  .none-res-social-media-imgs{
     display: none;
   }
-  .res-footer-wrapper{
+  #res-social-media-imgs{
     display: block;
   }
-  .footer-aboutme {
-    margin-left: 230px;
-  }
-  .footer-questions {
-    margin-left: 314px;
-    margin-top: 368px;
-  }
-  .footer-services {
-    margin-left: 319px;
-    margin-top: 660px;
-  }
-  .footer-links {
-    margin-left: 344px;
-    margin-top: 900px;
-  }
-  .social-media-img-holder{
-    position: relative;
-  }
+  
   
 }
 /********************************************

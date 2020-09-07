@@ -10,8 +10,8 @@ session_start();
       <title></title>
       <!-- Main -->
       <link rel="stylesheet" href="css/regist.css" type="text/css">
-      <link rel="stylesheet" href="css/style.css" type="text/css">
-      <!-- <link rel="stylesheet" href="css/style2.css" type="text/css"> -->
+      <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
+      <link rel="stylesheet" href="css/style2.css" type="text/css">
       <link rel="stylesheet" href="css/counter.css">
       <link rel="stylesheet" href="responsive/css/responsive.css">
       <link rel="stylesheet" href="css/reset.css">
@@ -858,8 +858,17 @@ session_start();
       <!-- End Contacts -->
 
       <!-- Footer -->
+      <center>
       <footer id="footer">
-            <div class="footer-wrapper" id="none-footer-wrapper">
+           
+            <div class="footer-wrapper">
+                  
+                  <!-- Responsive -->
+                  <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a" id="res-social-media-imgs"target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
+                  <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" id="res-social-media-imgs"/>
+                  <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" id="res-social-media-imgs"/>
+                  <!-- End Responsive -->
+
                   <div class="footer-aboutme footer-box">
                         <h2 class="footer-aboutme-h2">Lets Talk about</h2>
                         <pre class="footer-aboutme-pre">
@@ -871,6 +880,7 @@ session_start();
                   </pre>
                         <a href="#contacts" class="footer-aboutme-a">Contact Me</a>
                   </div>
+                  
 
 
 
@@ -916,85 +926,16 @@ session_start();
 
                   <!-- Social Media IMGS -->
 
-
-                  <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a" target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
-                  <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" />
-                  <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" />
-
+                  <span class="none-res-social-media-imgs">
+                        <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a"  id="none-res-social-imgs"target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
+                        <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" id="none-res-social-imgs" />
+                        <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" id="none-res-social-imgs" />
+                  </span>
                   <!-- End Social Media IMGS -->
             </div>
-
-            <!-- Responsive -->
-                 <center class="res-footer-wrapper">
-                 <center>
-                  <div class="footer-wrapper">
-                        <div class="footer-aboutme footer-box">
-                              <h2 class="footer-aboutme-h2">Lets Talk about</h2>
-                              <pre class="footer-aboutme-pre">
-                              Far far away, behind the word
-                              mountains, far from the
-                              countries Vokalia and
-                              Consonantia, there live the
-                              blind texts.
-                        </pre>
-                              <a href="#contacts" class="footer-aboutme-a">Contact Me</a>
-                  </div>
-                  </center>
-
-                  <center>
-                  <div class="footer-links footer-box">
-                        <h2 class="footer-links-h2">Links</h2>
-                        <pre class="footer-links-pre">
-                 <b>></b> <a href="#logo-holder" class="footer-links-pre-a">Home</a>
-                 <b>></b> <a href="#intro" class="footer-links-pre-a">About</a>
-                 <b>></b> <a href="#myskills" class="footer-links-pre-a">Skills</a>
-                 <b>></b> <a href="#services" class="footer-links-pre-a">Services</a>
-                 <b>></b> <a href="#projects" class="footer-links-pre-a">Projects</a>
-                 <b>></b> <a href="#contacts" class="footer-links-pre-a">Contacts</a>
-            </pre>
-                  </div>
-                  </center>
-                  <center>
-                  <div class="footer-services footer-box">
-                        <h2 class="services-links-h2">Services</h2>
-                        <pre class="services-links-pre">
-                              <b>></b> <a href="#services" class="services-links-pre-a">Web Design</a>
-                              <b>></b> <a href="#services" class="services-links-pre-a">Web Development</a>
-                              <b>></b> <a href="#services" class="services-links-pre-a">Business</a>
-                              <b>></b> <a href="#services" class="services-links-pre-a">Data Analysis</a>
-                              <b>></b> <a href="#services" class="services-links-pre-a">Graphic Design</a>
-                              <b>></b> <a href="#services" class="services-links-pre-a">Seo</a>
-                         </pre>
-
-                  </div>
-                  </center>
-                  <center>
-                  <div class="footer-questions footer-box">
-                        <h2 class="footer-questions-h2">Have a Question?</h2>
-                        <pre class="footer-questions-pre">
-                  <img src="https://img.icons8.com/carbon-copy/30/000000/map-marker.png"/>203 Fake St. Mountain
-                      View, San Francisco,
-                      California, USA
-
-                  <img src="https://img.icons8.com/carbon-copy/30/000000/phone.png"/> +2 392 3929 215
-
-                  <img src="https://img.icons8.com/ios/20/000000/paper-plane.png"/>  info@yourdomain.com
-            </pre>
-                  </div>
-                  </center>
-                  <!-- Social Media IMGS -->
-                  <center>
-                        <div class="social-media-img-holder">
-                              <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a" target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
-                              <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" />
-                              <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" />
-                        </div>
-                  </center>
-                  <!-- End Social Media IMGS -->
-            </div>
-                 </center>
-            <!-- End Responsive -->
+                 
       </footer>
+      </center> 
       <!-- End Footer -->
 
 
