@@ -10,11 +10,12 @@ session_start();
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
-      <link rel="stylesheet" href="../css/style.css" type="text/css">
+      <!-- <link rel="stylesheet" href="../css/style.css" type="text/css"> -->
       <link rel="stylesheet" href="..css/reset.css">
-      <link rel="stylesheet" href="css/singupin.css">
-      <link rel="stylesheet" href="css/signupin2.css">
-
+      <link rel="stylesheet" href="../css/style2.css" type="text/css">
+      <link rel="stylesheet" href="css/registration.css">
+      
+     
       <!-- Font -->
       <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
@@ -80,9 +81,15 @@ session_start();
             <!-- End Navigation -->
       </header>
 
-
+<center>
       <section id="signinup">
             <!-- Hacker PNG -->
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <img src="../img/Hacker-5122.png" alt="" class="fav-icon">
             <!-- END Hacker PNG -->
             <div id="signin">
@@ -115,11 +122,21 @@ session_start();
             </div>
       </section>
 
+      </center>
 
-
+      <center>
       <footer id="footer">
-
+           
             <div class="footer-wrapper">
+                  
+                  <!-- Responsive -->
+                  <center id="res-social-media-imgs" >
+                        <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a" target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
+                        <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" />
+                        <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" />
+                  </center>
+                  <!-- End Responsive -->
+
                   <div class="footer-aboutme footer-box">
                         <h2 class="footer-aboutme-h2">Lets Talk about</h2>
                         <pre class="footer-aboutme-pre">
@@ -131,6 +148,7 @@ session_start();
                   </pre>
                         <a href="#contacts" class="footer-aboutme-a">Contact Me</a>
                   </div>
+                  
 
 
 
@@ -175,15 +193,16 @@ session_start();
                   </div>
 
                   <!-- Social Media IMGS -->
-
-
-                  <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a" target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
-                  <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" />
-                  <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" />
-
+                  <center class="none-res-social-media-imgs">
+                        <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a"  id="none-res-social-imgs"target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
+                        <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" id="none-res-social-imgs" />
+                        <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" id="none-res-social-imgs" />
+                  </center>
                   <!-- End Social Media IMGS -->
             </div>
+                 
       </footer>
+      </center> 
 <!-- Scripts -->
 <!-- Loader -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -191,6 +210,9 @@ session_start();
             window.jQuery || document.write('<script src="../assests/loader/js/vendor/jquery-1.9.1.min.js"><\/script>')
       </script>
       <script src="../assests/loader/js/main.js"></script>
+      
+
+      <script src="js/hamburger.js"></script>
 </body>
 
 </html>

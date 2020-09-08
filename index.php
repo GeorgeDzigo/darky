@@ -10,9 +10,8 @@ session_start();
       <title></title>
       <!-- Main -->
       <link rel="stylesheet" href="css/regist.css" type="text/css">
-      <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
-      <link rel="stylesheet" href="css/style2.css" type="text/css">
       <link rel="stylesheet" href="css/counter.css">
+      <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="responsive/css/responsive.css">
       <link rel="stylesheet" href="css/reset.css">
       <!-- End Main -->
