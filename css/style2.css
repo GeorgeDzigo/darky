@@ -1595,7 +1595,11 @@ html {
         margin-top: 25px;
       }
     }
-    
+    @media only screen and (max-width: 1024px) {
+      .project-offer-section-img {
+        margin-left: 200px;
+    }
+    }
     /********************************************
                   End Project Offer Section
         ********************************************/
@@ -2010,9 +2014,7 @@ html {
       .footer-questions {
         margin-left: 955px;
       }
-      .none-res-social-media-imgs {
-
-      }
+     
     }
     @media only screen and (max-width: 1210px) {
       #footer {
@@ -2102,8 +2104,11 @@ html {
     #res-social-media-imgs {
     display: block;
     margin-left: 232px;
-    width: 175px;
+    width: 40px;
     }
+    #res-social-media-imgs img{
+      display: inline-block;
+      }
       
       
     }
