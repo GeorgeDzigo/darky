@@ -307,8 +307,9 @@ body {
 }
 @media only screen and (max-width: 651px) {
   #typed {
-    font-size: .75em;
-  }
+    margin-left: -399px;
+    font-size: 0.70em;
+}
   .about-me-res-div{
     left: -274px;
     width: 200px;
