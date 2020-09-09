@@ -11,9 +11,8 @@ session_start();
       <!-- Main -->
       <link rel="stylesheet" href="css/regist.css" type="text/css">
       <link rel="stylesheet" href="css/counter.css">
-      <!-- <link rel="stylesheet" href="css/style.css"> -->
-      <link rel="stylesheet" href="css/style2.css">
-      <link rel="stylesheet" href="responsive/css/responsive.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- <link rel="stylesheet" href="css/style2.css"> -->
       <link rel="stylesheet" href="css/reset.css">
       <!-- End Main -->
 
@@ -864,9 +863,11 @@ session_start();
             <div class="footer-wrapper">
                   
                   <!-- Responsive -->
-                  <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a" id="res-social-media-imgs"target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
-                  <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" id="res-social-media-imgs"/>
-                  <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" id="res-social-media-imgs"/>
+                  <center id="res-social-media-imgs" >
+                        <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a" target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
+                        <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" />
+                        <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" />
+                  </center>
                   <!-- End Responsive -->
 
                   <div class="footer-aboutme footer-box">
@@ -925,17 +926,16 @@ session_start();
                   </div>
 
                   <!-- Social Media IMGS -->
-
-                  <span class="none-res-social-media-imgs">
+                  <center class="none-res-social-media-imgs">
                         <a href="https://www.facebook.com/kitchendesign.ge/?ref=aymt_homepage_panel&eid=ARBjw_LEKG3o8typ58M-ZHLE8Stc1qrexqFrUKQo__co14sYDthYo-Qp1h74MBzG6c4SRNRh2Wv2YdbK" class="wow fadeIn social-media-a"  id="none-res-social-imgs"target="_blank"><img src="https://img.icons8.com/dusk/35/000000/facebook-new--v2.png" class="social-meadia-img-a-img" /></a>
                         <img src="https://img.icons8.com/office/35/000000/instagram-new.png" class="social-meadia-img-a-img" id="none-res-social-imgs" />
                         <img src="https://img.icons8.com/doodle/35/000000/github--v1.png" class="social-meadia-img-a-img" id="none-res-social-imgs" />
-                  </span>
+                  </center>
                   <!-- End Social Media IMGS -->
             </div>
                  
       </footer>
-      </center> 
+      </center>
       <!-- End Footer -->
 
 

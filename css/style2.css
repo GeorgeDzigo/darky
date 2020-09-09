@@ -2102,12 +2102,12 @@ html {
         display: none;
       }
     #res-social-media-imgs {
-    display: block;
+    display: inline;
     margin-left: 232px;
     width: 40px;
     }
     #res-social-media-imgs img{
-      display: inline-block;
+      width: 40px;
       }
       
       

@@ -1,10 +1,8 @@
-html {
-  overflow-x: hidden;
+html{
+  overflow-x:hidden;
 }
-
 body {
   background-color: #262626;
-  overflow-x: hidden;
 }
 
 #particles-js {
@@ -464,31 +462,34 @@ body {
   }
   .intro-h3 {
     left: 179px;
-    bottom: -203px;
+    bottom: 325px;
+    position: relative;
   }
   .intro-h1 {
     left: 179px;
-    bottom: -250px;
+    bottom: 335px;
+    position: relative;
   }
   .res-intro-pre {
     left: 43px;
-    bottom: 241px;
+    bottom: 337px;
     position: relative;
     font-size: 15px;
   }
   .intro-list {
     left: 111px;
-    bottom: 264px;
+    bottom: 356px;
     position: relative;
     font-size: 10px;
   }
   .intro-hobbies {
     height: 50px;
-    top: -293px;
+    top: -385px;
     left: 160px;
   }
   #intro {
     height: 507px;
+    margin-top: 842px;
   }
 }
 
@@ -501,6 +502,7 @@ body {
   }
   #intro {
     height: 724px;
+    margin-top: 640px;
   }
   .intro-h3 {
     bottom: 313px;
@@ -800,7 +802,8 @@ body {
     font-size: 18px !important;
     margin-top: -3px !important;
     margin-bottom: 0px !important;
-    margin-left: 73px !important;
+    margin-left: 0px !important;
+    position: unset !important;
 }
   /* BOX 1 */
   #box1 {
@@ -811,8 +814,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
-    margin-top: 10px !important;
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+    position: relative !important;
   }
   /*END BOX 1 */
 
@@ -825,8 +829,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
-    margin-top: 10px !important;
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 2 */
 
@@ -839,8 +844,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
-    margin-top: 10px !important;
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 3 */
 
@@ -853,8 +859,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
-    margin-top: 30px !important;
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 4 */
 
@@ -867,8 +874,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 5 */
 
@@ -882,8 +890,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 6 */
 
@@ -896,8 +905,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 7 */
 
@@ -910,8 +920,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 8 */
 
@@ -925,8 +936,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 15px !important;
+    position: relative !important;
   }
   /* BOX 9 */
 
@@ -939,8 +951,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 10 */
 
@@ -953,8 +966,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 11 */
 
@@ -967,8 +981,9 @@ body {
     margin: 0 !important;
     width: 100px !important;
     height: 100px !important;
-    margin-left: 50px !important;
-    margin-top: 30px !important;
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+    position: relative !important;
   }
   /* END BOX 12 */
 }
@@ -980,7 +995,7 @@ body {
 .box2-h2 {
   font-size: 18px !important;
   margin-top: -3px !important;
-  margin-left: 32px !important;
+  margin-left: 0px !important;
   margin-bottom: 0px !important;
 }
 
@@ -993,7 +1008,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
+    margin-left: 0px !important;
   }
   /*END BOX 1 */
 
@@ -1006,7 +1021,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 2 */
 
@@ -1019,7 +1034,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 3 */
 
@@ -1035,8 +1050,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
 }
   /* END BOX 4 */
 
@@ -1049,8 +1063,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 5 */
 
@@ -1063,8 +1076,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 6 */
 
@@ -1079,8 +1091,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 7 */
 
@@ -1093,8 +1104,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 8 */
 
@@ -1108,8 +1118,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
   }
   /* BOX 9 */
 
@@ -1123,8 +1132,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 10 */
 
@@ -1138,8 +1146,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 11 */
 
@@ -1153,8 +1160,7 @@ body {
     margin: 0 !important;
     width: 60px !important;
     height: 60px !important;
-    margin-left: 26px !important;
-    margin-top: 16px !important;
+    margin-left: 0px !important;
   }
   /* END BOX 12 */
 }
@@ -2076,8 +2082,8 @@ select:focus {
 }
 @media only screen and (max-width: 795px) {
   #footer {
-    height: 1286px;
-  }
+    height: 1363px;
+}
   .social-meadia-img-a-img {
     top: 15px;
     left: 129px;
@@ -2104,12 +2110,14 @@ select:focus {
   .none-res-social-media-imgs{
     display: none;
     }
-  #res-social-media-imgs {
-  display: block;
-  margin-left: 232px;
-  width: 40px;
-  }
-  
+    #res-social-media-imgs {
+      display: inline;
+      margin-left: 232px;
+      width: 40px;
+      }
+      #res-social-media-imgs img{
+        width: 40px;
+        }
   
 }
 /********************************************
